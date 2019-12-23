@@ -11,3 +11,5 @@ Phaser 3 UI Component Framework
 |---------|-------------|
 | `npm install` | Install project dependencies |
 | `npm start` | Build project and open web server running project, watching for changes |
+| `npm run winclean` | Delete dist directory for clean build |
+| `npm run buils` | Build & bundle the project |
