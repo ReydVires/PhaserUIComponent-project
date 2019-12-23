@@ -1,5 +1,5 @@
 # PhaserUIComponent-project
-Phaser 3 UI Component Framework
+Phaser 3 UI Component Framework Template Project
 
 ## Requirements
 
