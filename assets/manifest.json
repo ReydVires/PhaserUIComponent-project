@@ -1,0 +1,34 @@
+{
+    "imagePack": {
+        "path": "assets/",
+        "defaultType": "image",
+        "files": [
+            {
+                "key": "bullet",
+                "url": "bullet.png"
+            }
+        ]
+    },
+    "audioPack": {
+        "path": "assets/audio/",
+        "defaultType": "audio",
+        "files": []
+    },
+    "assetsPack": {
+        "path": "assets/",
+        "files": [
+            {
+                "type": "spritesheet",
+                "key": "btn_ui",
+                "url": "btn_ui.png",
+                "frameConfig": { "frameWidth": 276, "frameHeight": 72 }
+            },
+            {
+                "type": "spritesheet",
+                "key": "vj",
+                "url": "virtualjoystick.png",
+                "frameConfig": { "frameWidth": 96, "frameHeight": 96 }
+            }
+        ]
+    }
+}

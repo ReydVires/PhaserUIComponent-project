@@ -1,0 +1,23 @@
+{
+    "name": "phaseruicomponent_project",
+    "version": "0.9.0",
+    "description": "Phaser 3 UI Component Framework",
+    "main": "src/game.js",
+    "scripts": {
+        "clean": "rm -d -r ./dist",
+        "winclean": "rmdir /q /s dist",
+        "build": "webpack",
+        "rebuild": "npm run clean && npm run build",
+        "start": "npm run build && webpack-dev-server --port=8000"
+    },
+    "author": "Ahmad Arsyel - ReydVires",
+    "dependencies": {
+        "copy-webpack-plugin": "^5.0.4",
+        "phaser": "^3.20.1",
+        "ts-loader": "^6.0.4",
+        "typescript": "^3.5.3",
+        "webpack": "^4.39.2",
+        "webpack-cli": "^3.3.7",
+        "webpack-dev-server": "^3.8.0"
+    }
+}
