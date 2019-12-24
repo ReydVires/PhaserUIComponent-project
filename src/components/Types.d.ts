@@ -6,10 +6,10 @@ declare namespace PhaserUIComponent {
             /**
              * Button type that will generate based on ButtonComponent.
              * Common type are available:
-             * * Flat (default)
-             * * Hold
-             * * Radio
-             * * Button
+             * * `Flat` (default)
+             * * `Hold`
+             * * `Radio`
+             * * `Button`
              */
             type?: string;
             /**
@@ -59,7 +59,10 @@ declare namespace PhaserUIComponent {
             type ObjectConfig = {
                 /**
                  * VirtualJoystick type that will generate based on VirtualJoystickComponent.
-                 */
+                 * Common type are available:
+                 * * `Joystick` (default)
+                 * * `Arrow` or `DPAD`
+                */
                 type?: string;
                 /**
                  * Single key texture that stored 2 frame (`controller` & `base`)
