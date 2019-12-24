@@ -4,8 +4,12 @@
         "defaultType": "image",
         "files": [
             {
-                "key": "bullet",
-                "url": "bullet.png"
+                "key": "btn_flat",
+                "url": "btn_ui_flat.png"
+            },
+            {
+                "key": "btn_flat_on",
+                "url": "btn_ui_flat_on.png"
             }
         ]
     },
@@ -28,6 +32,12 @@
                 "key": "vj",
                 "url": "virtualjoystick.png",
                 "frameConfig": { "frameWidth": 96, "frameHeight": 96 }
+            },
+            {
+                "type": "spritesheet",
+                "key": "btn_arrow",
+                "url": "btn_arrow.png",
+                "frameConfig": { "frameWidth": 72, "frameHeight": 72 }
             }
         ]
     }
