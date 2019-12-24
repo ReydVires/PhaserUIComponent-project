@@ -2,6 +2,7 @@ import { BootScene } from './scenes/BootScene';
 import { GameScene } from './scenes/GameScene';
 import { PreloadScene } from './scenes/PreloadScene';
 import { MenuScene } from './scenes/MenuScene';
+import { ExampleScene } from './scenes/Example/ExampleScene';
 
 export const SCREEN_WIDTH: number = 360;
 export const SCREEN_HEIGHT: number = 640;
@@ -23,6 +24,7 @@ export const Config: Phaser.Types.Core.GameConfig = {
 		PreloadScene,
 		MenuScene,
 		GameScene,
+		ExampleScene
 	],
 	scale: {
 		mode: Phaser.Scale.FIT,

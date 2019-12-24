@@ -15,6 +15,7 @@ export class GameScene extends Phaser.Scene {
 		const spaceTap = this.input.keyboard.addKey('SPACE');
 		if (Phaser.Input.Keyboard.JustDown(spaceTap)) {
 			console.log('Space!');
+			this.scene.start('ExampleScene');
 		}
 	}
 	
