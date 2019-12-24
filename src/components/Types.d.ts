@@ -154,6 +154,7 @@ declare namespace PhaserUIComponent {
             inputWidth?: string;
             /**
              * TextField type that will generate based on TextFieldComponent.
+             * * `Flat` (default)
              */
             type?: string;
         }
