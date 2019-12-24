@@ -38,6 +38,7 @@ export abstract class VirtualControlComponent extends Phaser.GameObjects.Sprite 
 	/**
      * Set object to be controlled with Virtual Control.
      * @param {any} controlledObject An object, need have position or coordinat properties.
+	 * @param {boolean} isPhysics Control the object with body.
      * @return This Virtual Control component instance.
      */
 	public abstract setControlled(controlledObject: any, isPhysics?: boolean): this;
