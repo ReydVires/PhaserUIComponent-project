@@ -9,9 +9,9 @@ Phaser 3 UI Component Framework Template Project
 
 ## Requirements
 
-[Node.js](https://nodejs.org) & [Typescript](https://www.npmjs.com/package/typescript) package is required to install dependencies and run scripts via `npm`.
+- [Node.js](https://nodejs.org) & [Typescript](https://www.npmjs.com/package/typescript) package is required to install dependencies and run scripts via `npm`.
 
-Better to use [VSCode](https://code.visualstudio.com/) IDE.
+- Better to use [VSCode](https://code.visualstudio.com/) IDE.
 
 
 ## Available Commands
