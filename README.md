@@ -27,3 +27,5 @@ Phaser 3 UI Component Framework Template Project
 ## Wanted in JS Version?
 
 [Here the link](https://s.id/phaseruicomponentJS)
+
+or perfer the components only in TS: [Click here](https://s.id/phaseruicomponent)
