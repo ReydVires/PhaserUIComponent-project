@@ -1,4 +1,5 @@
 import { Helper } from "../utils/Helper";
+import { centerX, centerY } from "../config";
 
 export class GameScene extends Phaser.Scene {
 
@@ -9,6 +10,10 @@ export class GameScene extends Phaser.Scene {
 	create(): void {
 		console.log("GameScene");
 		Helper.drawDebugLines(this.add.graphics());
+		this.add.text(centerX, centerY, "Game Scene", {
+			color: 'black'
+		})
+		.setOrigin(0.5);
 	}
 
 	update(time: number, delta: number): void {
